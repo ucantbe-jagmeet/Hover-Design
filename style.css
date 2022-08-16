@@ -40,7 +40,6 @@ span
 
 button .left
 {
-    content: "";
     position: absolute;
     right: 100%;
     top: 0;
@@ -58,7 +57,6 @@ button:hover .left
 
 button .top
 {
-    content: "";
     position: absolute;
     top: 0;
     right:100%;
@@ -75,7 +73,6 @@ button:hover .top
 
 button .bottom
 {
-    content: "";
     position: absolute;
     left: 50%;
     top: 100%;
@@ -93,7 +90,6 @@ button:hover .bottom
 
 button .right
 {
-    content: "";
     position: absolute;
     left: 100%;
     top: 100%;
