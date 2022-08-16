@@ -34,7 +34,7 @@ button:hover
 
 span
 {
-    transition:all 0.7s;
+    transition:all 0.7s ease-in-out;
     z-index: -1;
 }
 
