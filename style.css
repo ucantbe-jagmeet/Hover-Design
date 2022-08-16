@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#252627;
+}
+button
+{
+    padding: 20px 40px;
+    font-size: 44px;
+    position: relative;
+    background-color: transparent;
+    color: #8884FF;
+    border: 3px solid whitesmoke;
+    cursor: poitner;
+    transform: all 0.7s;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+button:hover
+{
+    /* color:whitesmoke; */
+    color:black;
+}
+
+span
+{
+    transition:all 0.7s;
+    z-index: -1;
+}
+
+button .left
+{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background:#DCCCFF;
+
+}
+
+button:hover .left
+{
+    top: 0;
+    right: 0;
+}
+
+button .top
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:100%;
+    width: 25%;
+    height: 100%;
+    background:#FFCB77;
+}
+
+button:hover .top
+{
+    top: 0;
+    right: 25%;
+}
+
+button .bottom
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 25%;
+    height: 100%;
+    background: #2e74be;
+
+}
+
+button:hover .bottom
+{
+    top: 0;
+    left: 25%;
+}
+
+button .right
+{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    width: 25%;
+    height: 100%;
+    background:#93B5C6;
+}
+
+button:hover .right
+{
+    top: 0;
+    left: 0;
+}
